@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sick Baby — Fever &amp; Medication Log</title>
+<meta name="description" content="A calm, dark, offline-first app to track a sick child's temperature and medication timing. No ads. No data selling." />
+<style>
+  :root { --bg:#121416; --card:#1C2025; --text:#E2E2E5; --muted:#A58A8E; --primary:#D14D72; --teal:#5F9EA0; --green:#6ADE7F; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font-family:Inter,system-ui,Segoe UI,Roboto,sans-serif; line-height:1.6; }
+  .wrap { max-width:820px; margin:0 auto; padding:56px 20px 80px; }
+  .badge { width:88px; height:88px; border-radius:24px; background:var(--card); display:flex; align-items:center; justify-content:center; font-size:44px; margin-bottom:20px; }
+  h1 { font-size:40px; line-height:1.1; margin:0 0 8px; letter-spacing:-0.5px; }
+  .tag { font-size:20px; color:var(--muted); margin:0 0 28px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:14px; margin:28px 0; }
+  .card { background:var(--card); border-radius:16px; padding:18px 20px; }
+  .card h3 { margin:0 0 6px; font-size:17px; }
+  .card p { margin:0; color:var(--muted); font-size:15px; }
+  .pill { display:inline-block; background:#2A2E32; color:var(--muted); border-radius:999px; padding:6px 14px; font-size:13px; margin-top:8px; }
+  a { color:var(--primary); }
+  footer { margin-top:40px; color:var(--muted); font-size:14px; }
+  .k { color:var(--green); } .t { color:var(--teal); } .p { color:var(--primary); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="badge">🌡️</div>
+  <h1>Sick Baby</h1>
+  <p class="tag">Fever &amp; medication log — calm, dark, and built for 3&nbsp;a.m.</p>
+  <span class="pill">Coming soon to Google Play</span>
+
+  <div class="grid">
+    <div class="card"><h3 class="p">Log in seconds</h3><p>Temperature and medication in a few taps — one-handed, in the dark.</p></div>
+    <div class="card"><h3 class="t">Know the next safe dose</h3><p>See time-since-last-dose and a countdown. No math, no guessing.</p></div>
+    <div class="card"><h3 class="k">See the trend</h3><p>A clear temperature chart with medication markers — great to show the doctor.</p></div>
+    <div class="card"><h3 class="p">Private by design</h3><p>Works fully offline. No ads. No data selling. Your child's data stays on your device.</p></div>
+  </div>
+
+  <p style="color:var(--muted);font-size:14px">Sick Baby is a memory aid and trend tracker — it does not give medical advice or calculate doses.</p>
+
+  <footer>
+    <a href="/privacy.html">Privacy Policy</a> · <a href="mailto:support@sickbaby.app">support@sickbaby.app</a><br />
+    © 2026 Sick Baby
+  </footer>
+</div>
+</body>
+</html>
