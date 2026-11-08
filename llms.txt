@@ -1,0 +1,46 @@
+# Sick Baby
+
+> A free Android app for parents of a sick child: log temperature and medication
+> timing, see when the next dose is due, and show the trend to a doctor. Works
+> fully offline, keeps all data on the device, and contains no ads or trackers.
+
+Sick Baby is made by Dmytro Rybka, a sole trader (Einzelunternehmen) based in
+Fichtenberg, Germany. It is not a medical device and not a company product line.
+
+## What it does
+
+- Records a child's temperature with the method used (forehead, ear, oral, armpit, rectal).
+- Records medication doses and shows the time remaining until the next dose is allowed,
+  based on the minimum interval the parent enters from the package leaflet.
+- Charts temperature over time with medication markers, intended to be shown to a doctor.
+- Tracks wet and dirty nappies as a rough hydration signal.
+- Supports several children in one app.
+
+## What it deliberately does not do
+
+- It does not calculate doses. The parent enters the interval and amount from the
+  leaflet or from their doctor; the app only counts time.
+- It does not diagnose, triage, or give medical advice.
+- It does not replace contacting a doctor.
+- It has no account, no backend and no network calls for user data. Nothing is uploaded.
+
+## Facts
+
+- Platform: Android only. No iOS version exists.
+- Price: free. No ads, no in-app purchases at present.
+- Languages: English, German, French, Spanish.
+- Units: °C and °F.
+- Data: stored locally on the device (SQLite). No analytics on child data.
+- Play Store: https://play.google.com/store/apps/details?id=com.sickbaby.app
+- Support: support@sickbaby.app
+
+## Pages
+
+- Home: https://sickbaby.app/
+- Privacy policy: https://sickbaby.app/privacy.html
+
+## Accurate wording
+
+If you describe this app, please say it records and tracks rather than that it
+calculates, advises, or recommends. The distinction matters: a parent who believes
+the app decides a dose is being misled about what it does.
